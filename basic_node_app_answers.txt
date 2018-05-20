@@ -1,0 +1,9 @@
+1. A Node module is a set of functions you can include in your app.
+It is similar to JavaScript libraries. The functions are only available in the module file unless you export the module.
+
+2. `exports` and `module.exports` will achieve the same results, however,
+`exports` is a reference to `module.exports` and can't reassign the object.
+
+
+3. `exports` is recommended because if `module.exports` is reassigned to a different object or data structure, 
+then any properties originally added to to original `module.exports` would be unaccessible. 
